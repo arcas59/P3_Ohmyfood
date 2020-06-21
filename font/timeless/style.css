@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "Timeless-Normal";
+  src: url("./fonts/Timeless.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/Timeless.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/Timeless.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/Timeless.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/Timeless.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/Timeless.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/Timeless.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

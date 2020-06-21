@@ -1,0 +1,1497 @@
+/*  Début Police d'écriture------------------------------------------------------------------------------------------  */
+
+@font-face 
+{
+  font-family: "CoolveticaRg-Regular";
+  src: url("font/coolvetica/fonts/coolveticarg.eot"); /* IE9 Compat Modes */
+  src: url("font/coolvetica/fonts/coolveticarg.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/coolvetica/fonts/coolveticarg.otf") format("opentype"), /* Open Type Font */
+    url("font/coolvetica/fonts/coolveticarg.svg") format("svg"), /* Legacy iOS */
+    url("font/coolvetica/fonts/coolveticarg.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/coolvetica/fonts/coolveticarg.woff") format("woff"), /* Modern Browsers */
+    url("font/coolvetica/fonts/coolveticarg.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: "OpenSans";
+  src: url("font/opensans/fonts/OpenSans-Regular.eot"); /* IE9 Compat Modes */
+  src: url("font/opensans/fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/opensans/fonts/OpenSans-Regular.otf") format("opentype"), /* Open Type Font */
+    url("font/opensans/fonts/OpenSans-Regular.svg") format("svg"), /* Legacy iOS */
+    url("font/opensans/fonts/OpenSans-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/opensans/fonts/OpenSans-Regular.woff") format("woff"), /* Modern Browsers */
+    url("font/opensans/fonts/OpenSans-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: "Devonshire-Regular";
+  src: url("font/devonshire/fonts/Devonshire-Regular.eot"); /* IE9 Compat Modes */
+  src: url("font/devonshire/fonts/Devonshire-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/devonshire/fonts/Devonshire-Regular.otf") format("opentype"), /* Open Type Font */
+    url("font/devonshire/fonts/Devonshire-Regular.svg") format("svg"), /* Legacy iOS */
+    url("font/devonshire/fonts/Devonshire-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/devonshire/fonts/Devonshire-Regular.woff") format("woff"), /* Modern Browsers */
+    url("font/devonshire/fonts/Devonshire-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: "KidKnowledges1";
+  src: url("font/kid/fonts/KidKnowledge1.eot"); /* IE9 Compat Modes */
+  src: url("font/kid/fonts/KidKnowledge1.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/kid/fonts/KidKnowledge1.otf") format("opentype"), /* Open Type Font */
+    url("font/kid/fonts/KidKnowledge1.svg") format("svg"), /* Legacy iOS */
+    url("font/kid/fonts/KidKnowledge1.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/kid/fonts/KidKnowledge1.woff") format("woff"), /* Modern Browsers */
+    url("font/kid/fonts/KidKnowledge1.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: "RaspoutineClassic";
+  src: url("font/raspoutine/fonts/RaspoutineClassicTB.eot"); /* IE9 Compat Modes */
+  src: url("font/raspoutine/fonts/RaspoutineClassicTB.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/raspoutine/fonts/RaspoutineClassicTB.otf") format("opentype"), /* Open Type Font */
+    url("font/raspoutine/fonts/RaspoutineClassicTB.svg") format("svg"), /* Legacy iOS */
+    url("font/raspoutine/fonts/RaspoutineClassicTB.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/raspoutine/fonts/RaspoutineClassicTB.woff") format("woff"), /* Modern Browsers */
+    url("font/raspoutine/fonts/RaspoutineClassicTB.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: "flashbackdemo-Regular";
+  src: url("font/flashback/fonts/flashbackDemo.eot"); /* IE9 Compat Modes */
+  src: url("font/flashback/fonts/flashbackDemo.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/flashback/fonts/flashbackDemo.otf") format("opentype"), /* Open Type Font */
+    url("font/flashback/fonts/flashbackDemo.svg") format("svg"), /* Legacy iOS */
+    url("font/flashback/fonts/flashbackDemo.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/flashback/fonts/flashbackDemo.woff") format("woff"), /* Modern Browsers */
+    url("font/flashback/fonts/flashbackDemo.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: "DMSerifText-Regular";
+  src: url("font/dmserif/fonts/DMSerifText-Regular.eot"); /* IE9 Compat Modes */
+  src: url("font/dmserif/fonts/DMSerifText-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/dmserif/fonts/DMSerifText-Regular.otf") format("opentype"), /* Open Type Font */
+    url("font/dmserif/fonts/DMSerifText-Regular.svg") format("svg"), /* Legacy iOS */
+    url("font/dmserif/fonts/DMSerifText-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/dmserif/fonts/DMSerifText-Regular.woff") format("woff"), /* Modern Browsers */
+    url("font/dmserif/fonts/DMSerifText-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: "apple";
+  src: url("font/apple/fonts/AppleGaramond.eot"); /* IE9 Compat Modes */
+  src: url("font/apple/fonts/AppleGaramond.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/apple/fonts/AppleGaramond.otf") format("opentype"), /* Open Type Font */
+    url("font/apple/fonts/AppleGaramond.svg") format("svg"), /* Legacy iOS */
+    url("font/apple/fonts/AppleGaramond.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/apple/fonts/AppleGaramond.woff") format("woff"), /* Modern Browsers */
+    url("font/apple/fonts/AppleGaramond.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: "Timeless-Normal";
+  src: url("font/timeless/fonts/Timeless.eot"); /* IE9 Compat Modes */
+  src: url("font/timeless/fonts/Timeless.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/timeless/fonts/Timeless.otf") format("opentype"), /* Open Type Font */
+    url("font/timeless/fonts/Timeless.svg") format("svg"), /* Legacy iOS */
+    url("font/timeless/fonts/Timeless.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/timeless/fonts/Timeless.woff") format("woff"), /* Modern Browsers */
+    url("font/timeless/fonts/Timeless.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: "NanumPen";
+  src: url("font/nanum/fonts/nanumpenscript-regular.eot"); /* IE9 Compat Modes */
+  src: url("font/nanum/fonts/nanumpenscript-regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/nanum/fonts/nanumpenscript-regular.otf") format("opentype"), /* Open Type Font */
+    url("font/nanum/fonts/nanumpenscript-regular.svg") format("svg"), /* Legacy iOS */
+    url("font/nanum/fonts/nanumpenscript-regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/nanum/fonts/nanumpenscript-regular.woff") format("woff"), /* Modern Browsers */
+    url("font/nanum/fonts/nanumpenscript-regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: "Angelina";
+  src: url("font/angelina/fonts/angelina.eot"); /* IE9 Compat Modes */
+  src: url("font/angelina/fonts/angelina.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/angelina/fonts/angelina.otf") format("opentype"), /* Open Type Font */
+    url("font/angelina/fonts/angelina.svg") format("svg"), /* Legacy iOS */
+    url("font/angelina/fonts/angelina.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/angelina/fonts/angelina.woff") format("woff"), /* Modern Browsers */
+    url("font/angelina/fonts/angelina.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: "ShadowsIntoLight";
+  src: url("font/shadow/fonts/ShadowsIntoLight.eot"); /* IE9 Compat Modes */
+  src: url("font/shadow/fonts/ShadowsIntoLight.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/shadow/fonts/ShadowsIntoLight.otf") format("opentype"), /* Open Type Font */
+    url("font/shadow/fonts/ShadowsIntoLight.svg") format("svg"), /* Legacy iOS */
+    url("font/shadow/fonts/ShadowsIntoLight.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/shadow/fonts/ShadowsIntoLight.woff") format("woff"), /* Modern Browsers */
+    url("font/shadow/fonts/ShadowsIntoLight.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: "Childish";
+  src: url("font/childish/fonts/Childish.eot"); /* IE9 Compat Modes */
+  src: url("font/childish/fonts/Childish.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/childish/fonts/Childish.otf") format("opentype"), /* Open Type Font */
+    url("font/childish/fonts/Childish.svg") format("svg"), /* Legacy iOS */
+    url("font/childish/fonts/Childish.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/childish/fonts/Childish.woff") format("woff"), /* Modern Browsers */
+    url("font/childish/fonts/Childish.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+  font-family: "KGMissKindergarten";
+  src: url("font/kgmiss/fonts/KGMissKindergarten.eot"); /* IE9 Compat Modes */
+  src: url("font/kgmiss/fonts/KGMissKindergarten.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("font/kgmiss/fonts/KGMissKindergarten.otf") format("opentype"), /* Open Type Font */
+    url("font/kgmiss/fonts/KGMissKindergarten.svg") format("svg"), /* Legacy iOS */
+    url("font/kgmiss/fonts/KGMissKindergarten.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("font/kgmiss/fonts/KGMissKindergarten.woff") format("woff"), /* Modern Browsers */
+    url("font/kgmiss/fonts/KGMissKindergarten.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face 
+{
+	font-family: "CroissantOne-Regular";
+	src: url("font/CroissantOne-Regular/fonts/CroissantOne-Regular.eot"); /* IE9 Compat Modes */
+	src: url("font/CroissantOne-Regular/fonts/CroissantOne-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	  url("font/CroissantOne-Regular/fonts/CroissantOne-Regular.otf") format("opentype"), /* Open Type Font */
+	  url("font/CroissantOne-Regular/fonts/CroissantOne-Regular.svg") format("svg"), /* Legacy iOS */
+	  url("font/CroissantOne-Regular/fonts/CroissantOne-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+	  url("font/CroissantOne-Regular/fonts/CroissantOne-Regular.woff") format("woff"), /* Modern Browsers */
+	  url("font/CroissantOne-Regular/fonts/CroissantOne-Regular.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+  }
+
+@font-face 
+{
+	font-family: "DancingScript";
+	src: url("font/dancing/fonts/DancingScript-Regular.eot"); /* IE9 Compat Modes */
+	src: url("font/dancing/fonts/DancingScript-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+		url("font/dancing/fonts/DancingScript-Regular.otf") format("opentype"), /* Open Type Font */
+		url("font/dancing/fonts/DancingScript-Regular.svg") format("svg"), /* Legacy iOS */
+		url("font/dancing/fonts/DancingScript-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+		url("font/dancing/fonts/DancingScript-Regular.woff") format("woff"), /* Modern Browsers */
+		url("font/dancing/fonts/DancingScript-Regular.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face 
+{
+	font-family: "KaushanScript-Regular";
+	src: url("font/KaushanScript-Regular/fonts/KaushanScript-Regular.eot"); /* IE9 Compat Modes */
+	src: url("font/KaushanScript-Regular/fonts/KaushanScript-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	  url("font/KaushanScript-Regular/fonts/KaushanScript-Regular.otf") format("opentype"), /* Open Type Font */
+	  url("font/KaushanScript-Regular/fonts/KaushanScript-Regular.svg") format("svg"), /* Legacy iOS */
+	  url("font/KaushanScript-Regular/fonts/KaushanScript-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+	  url("font/KaushanScript-Regular/fonts/KaushanScript-Regular.woff") format("woff"), /* Modern Browsers */
+	  url("font/KaushanScript-Regular/fonts/KaushanScript-Regular.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*  Fin Police d'écriture------------------------------------------------------------------------------------------------  */
+
+/*  Début Page Accueil Ohmyfood------------------------------------------------------------------------------------------  */
+
+html, body 
+{
+ margin:0;
+ padding:0;
+}
+
+body a
+{
+	text-decoration: none;
+}
+
+header
+{
+	height: 100px;
+	background-color: #579c87;
+	width: auto;
+}
+
+footer
+{
+	height: 50px;
+	background-color: #579c87;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+}
+
+#pagetotal
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#haut
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo
+{
+	font-size: 50px;
+	font-weight: bold;
+	font-family: 'CoolveticaRg-Regular', Impact, 'Times New Roman';
+	color: #fdcb46;
+}
+
+#main1
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 830px;
+	background-color: #ffffff;
+	width: auto;
+}
+
+#menubloc
+{
+	height: 730px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.menu12, .menu34
+{
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu1index, .menu2index, .menu3index, .menu4index
+{
+	max-width: 200px;
+	height: auto;
+	box-shadow: 1px 1px 12px #DEDEDE;
+	transition: transform 1s;
+}
+
+.menu1index:hover, .menu2index:hover, .menu3index:hover, .menu4index:hover
+{
+	transform: scale(1.13);
+	animation-name: fondu;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-duration: 1s;
+	transform-origin: 50% 50%;
+	animation-direction: alternate;
+	animation-fill-mode:forwards;
+}
+
+@keyframes fondu
+{
+	0%
+	{
+		opacity: 1;
+	}
+	50%
+	{
+		opacity: 0.5;
+	}
+	100%
+	{
+		opacity: 1;
+	}
+}
+
+#prochainement
+{
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	margin-bottom: 60px;
+}
+
+#proche
+{
+	height: 50px;
+	line-height: 50px;	
+	width: 300px;
+	background: #579c87;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.txtproche
+{
+	font-size: 28px;
+	font-family: 'OpenSans', Impact, 'Times New Roman';
+	text-align: center;
+	color: #fdcb46;
+}
+
+#bas
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.mentions
+{
+	margin-left: 15px;
+	font-family: 'OpenSans', Impact, 'Times New Roman';
+	color: #fdcb46;
+}
+
+.mentions:hover
+{
+	animation: wiggle 100ms cubic-bezier(.4,.1,.6,.9) 2;
+}
+
+@keyframes wiggle{
+  25% {
+    transform:  translateX(2%);
+  }
+
+  75% {
+    transform:  translateX(2%);
+  }
+}
+
+.contactez
+{
+	margin-right: 15px;
+	font-family: 'OpenSans', Impact, 'Times New Roman';
+	color: #fdcb46;
+}
+
+.contactez:hover
+{
+	animation: wiggle 100ms cubic-bezier(.4,.1,.6,.9) 2;
+}
+
+@keyframes wiggle{
+  25% {
+    transform:  translateX(2%);
+  }
+
+  75% {
+    transform:  translateX(2%);
+  }
+}
+
+.menu2index
+{
+	margin-left: 40px;
+}
+
+.menu4index
+{
+	margin-left: 40px;
+}
+
+/*  Fin Page Accueil Ohmyfood------------------------------------------------------------------------------------------ */
+
+/*  Début Page Prochainement -----------------------------------------------------------------------------------------  */
+
+
+#menublocproch
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 465px;
+	width: 100%;
+}
+
+#cercle1 
+{
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    border-radius: 20px;
+    background: #579c87;
+    animation: animeperso ease-in-out 2s;
+    animation-direction: alternate;
+  	animation-iteration-count: infinite;
+  	transform-origin: 50% 50%;
+  	animation-fill-mode:forwards;
+}
+
+#cercle2
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #ffffff;
+}
+
+#cercle3
+{
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    border-radius: 20px;
+    background: #579c87;
+    transform: translateY(1);
+    animation: animeperso ease-in-out 2s;
+    animation-direction: alternate;
+    animation-delay: 500ms;
+  	animation-iteration-count: infinite;
+  	transform-origin: 50% 50%;
+  	animation-fill-mode:forwards;
+}
+
+#cercle4
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background: #ffffff;
+}
+
+#cercle5
+{
+    width: 40px;
+    height: 40px;
+    opacity: 1;
+    border-radius: 20px;
+    background: #579c87;
+    animation: animeperso ease-in-out 2s;
+    animation-direction: alternate;
+    animation-delay: 1000ms;
+  	animation-iteration-count: infinite;
+  	transform-origin: 50% 50%;
+  	animation-fill-mode:forwards;
+}
+
+@keyframes animeperso{
+  0% {
+    opacity:1;
+    transform:  translate(0px,0px)  ;
+  }
+  50% {
+    opacity:0.5
+    ;
+  }
+  100% {
+    opacity:1;
+    transform:  translate(0px,-52px)  ;
+  }
+}
+
+/*  Fin Page Prochainement ---------------------------------------------------------------------------------------------  */
+
+
+/*  Début Page Mentions ------------------------------------------------------------------------------------------------  */
+
+#menublocmen
+{
+	height: 410px;
+}
+
+.txtmentions
+{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 30px;
+	font-family: 'OpenSans', Impact, 'Times New Roman';
+	text-align: justify;
+	color: #579c87;
+}
+
+/*  Fin Page Mentions Légales -------------------------------------------------------------------------------------------  */
+
+
+/*  Début Page Contactez-nous -------------------------------------------------------------------------------------------  */
+
+#menubloccontact
+{
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.txt, h2
+{
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 30px;
+	font-family: 'OpenSans', Impact, 'Times New Roman';
+	text-align: justify;
+	color: #579c87;
+}
+
+.mail
+{
+	color: #fdcb46;
+}
+
+/*  Fin Page Contactez-nous ---------------------------------------------------------------------------------------------  */
+
+
+/*  Début Page CSS Menu 1------------------------------------------------------------------------------------------------  */
+
+#menu1main
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#menubloca
+{
+	height: 1930px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.blocmen10
+{
+	text-align: center;
+	font-size: 40px;
+	margin-top: -120px;
+}
+
+#bloca
+{
+	height: 1650px;
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	box-shadow: 1px 1px 12px #DEDEDE;
+	background-color: #fcdfdb;
+}
+
+.blocmen11
+{
+	width: 750px;
+	height: 1750px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fcdfdb;
+}
+
+.blocmen111
+{
+	height: 355px;
+	font-family: 'Devonshire-Regular', Impact, 'Times New Roman';
+}
+
+.blocmen1111
+{
+	height: 150px;
+	margin-top: 72px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.note1
+{
+	width: 100px;
+}
+
+.blocmen1112
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #3d1319;
+}
+
+.note2
+{
+	font-size: 60px;
+	width: auto;
+}
+
+.blocmen1112
+{
+	height: 80px;
+}
+
+.blocmen112, .blocmen114, .blocmen116
+{
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.note1131, .note1151, .note1171
+{
+	margin-top: 20px;
+}
+
+.note1122, .note1142, .note1162
+{
+	font-family: 'KidKnowledges1', Impact, 'Times New Roman';
+	font-size: 38px;
+}
+
+.blocmen115
+{
+	height: 430px;
+	display: flex;
+	flex-direction: column;
+}
+
+.note1131, .note1132, .note1133, .note1134, .note1151, .note1152, .note1153, .note1171, .note1172, .note1173
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 65px;
+	text-decoration: none;
+ 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+ 	transition: background-size .5s;
+}
+
+.note1131:hover, .note1132:hover, .note1133:hover, .note1134:hover, .note1151:hover, .note1152:hover, .note1153:hover, .note1171:hover, .note1172:hover, .note1173:hover
+{
+ 	background-size: 100% 100%;
+}
+
+.note11311, .note11321, .note11331, .note11341, .note11511, .note11521, .note11531, .note11711, .note11721, .note11731
+{
+	font-family: 'RaspoutineClassic', Impact, 'Times New Roman';
+	font-size: 22px;
+}
+
+.note11312, .note11322, .note11332, .note11342, .note11512, .note11522, .note11532
+{
+	font-family: 'flashbackdemo-Regular', Impact, 'Times New Roman';
+	font-size: 40px;
+}
+
+.blocmen113
+{
+	height: 370px;
+}
+
+.blocmen114
+{
+	height: 50px;
+	margin-top: 10px;
+}
+
+.blocmen115
+{
+	height: 300px;
+}
+
+.blocmen116
+{
+	height: 50px;
+}
+
+.blocmen117
+{
+	height: 250px;
+}
+
+.blocmen118
+{
+	height: 146px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.notefin1
+{
+	height: 70px;
+}
+
+.notefin2
+{
+	font-family: 'Devonshire-Regular', Impact, 'Times New Roman';
+	color: #3d1319;
+	font-size: 50px;
+	margin-left: 15px;
+}
+
+.branche1g
+{
+	padding-left: 3px;
+	width: 180px;
+}
+
+.branche1d
+{
+	width: 180px;
+}
+}
+
+/*  Fin Page CSS Menu 1--------------------------------------------------------------------------------------------------  */
+
+/*  Début Page CSS Menu 2------------------------------------------------------------------------------------------------  */
+
+#menu1main
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#menubloca
+{
+	height: 1930px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.blocmen10
+{
+	text-align: center;
+	font-size: 40px;
+}
+
+#b2loca
+{
+	height: 1650px;
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	box-shadow: 1px 1px 12px #DEDEDE;
+	background-color: #fff5fe;
+}
+
+.b2locmen11
+{
+	width: 750px;
+	height: 1750px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff5fe;
+}
+
+.b2locmen111
+{
+	height: 370px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.b2locmen1111
+{
+	height: 150px;
+	font-family: 'CroissantOne-Regular', Impact, 'Times New Roman';
+	font-size: 50px;
+	background-image: linear-gradient(to bottom right, #df871e 0%, #8f5bfe 75%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.n2ote1
+{
+	width: 600px;
+}
+
+.n2ote1121, .n2ote1141
+{
+	position: relative;
+	right: 90px;
+}
+
+.n2ote1161
+{
+	position: relative;
+	right: 70px;
+}
+
+.n2ote1123, .n2ote1143
+{
+	position: relative;
+	left: 90px;
+}
+
+.n2ote1163
+{
+	position: relative;
+	left: 90px;
+}
+
+.b2locmen112, .b2locmen114, .b2locmen116
+{
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.blocmen1112
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #3d1319;
+}
+
+.blocmen1112
+{
+	height: 80px;
+}
+
+.n2ote1122
+{
+	font-family: 'DMSerifText-Regular', Impact, 'Times New Roman';
+	font-size: 28px;
+	color: #c67412;
+	width: 400px;
+	position: absolute;
+	left:41%;
+}
+
+.n2ote1142
+{
+	font-family: 'DMSerifText-Regular', Impact, 'Times New Roman';
+	font-size: 28px;
+	color: #c67412;
+	width: 400px;
+	position: absolute;
+	left:28%;
+}
+
+.n2ote1162
+{
+	font-family: 'DMSerifText-Regular', Impact, 'Times New Roman';
+	font-size: 28px;
+	color: #c67412;
+	width: 400px;
+	position: absolute;
+	left:26.5%;
+}
+
+.n2ote1142
+{
+	font-family: 'DMSerifText-Regular', Impact, 'Times New Roman';
+	font-size: 28px;
+	color: #a56799;
+	position: absolute;
+	margin-left: 230px;
+}
+
+.n2ote1162
+{
+	font-family: 'DMSerifText-Regular', Impact, 'Times New Roman';
+	font-size: 28px;
+	color: #6e4ccc;
+	position: absolute;
+	margin-left: 230px;
+}
+
+.branche21
+{
+	width: 300px;
+}
+
+.branche31
+{
+	width: 270px;
+}
+
+.branche211
+{
+	width: 210px;
+}
+
+.b2locmen112, .b2locmen114, .b2locmen116
+{
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.note1131, .note1151, .note1171
+{
+	margin-top: 20px;
+}
+
+.note1131, .note1132, .note1133, .note1134, .note1151, .note1152, .note1153, .note1171, .note1172, .note1173
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 65px;
+	text-decoration: none;
+ 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+ 	transition: background-size .5s;
+}
+
+.note1131:hover, .note1132:hover, .note1133:hover, .note1134:hover, .note1151:hover, .note1152:hover, .note1153:hover, .note1171:hover, .note1172:hover, .note1173:hover
+{
+ 	background-size: 100% 100%;
+}
+
+.n2ote11311, .n2ote11321, .n2ote11331, .n2ote11341, .n2ote11511, .n2ote11521, .n2ote11531, .n2ote11711, .n2ote11721, .n2ote11731
+{
+	font-family: 'apple', Impact, 'Times New Roman';
+	font-size: 29px;
+}
+
+.n2ote11511, .n2ote11512, .n2ote11521, .n2ote11522, .n2ote11531, .n2ote11532
+{
+	color: #bc8bb2;
+}
+
+.n2ote11311, .n2ote11312, .n2ote11321, .n2ote11322, .n2ote11331, .n2ote11332
+{
+	color: #d4944d;
+}
+
+.n2ote11711, .n2ote11721, .n2ote11731
+{
+	color: #6e4ccc;
+}
+
+.n2ote11312, .n2ote11322, .n2ote11332, .n2ote11342, .n2ote11512, .n2ote11522, .n2ote11532
+{
+	font-family: 'Timeless-Normal', Impact, 'Times New Roman';
+	font-size: 30px;
+}
+
+.b2locmen113
+{
+	height: 300px;
+}
+
+.b2locmen114
+{
+	height: 50px;
+}
+
+.b2locmen115
+{
+	height: 300px;
+}
+
+.b2locmen116
+{
+	height: 50px;
+}
+
+.b2locmen117
+{
+	height: 250px;
+}
+
+
+/*  Fin Page CSS Menu 2--------------------------------------------------------------------------------------------------  */
+
+
+/*  Début Page CSS Menu 3------------------------------------------------------------------------------------------------  */
+
+#menu1main
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#menubloca
+{
+	height: 1930px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.blocmen10
+{
+	text-align: center;
+	font-size: 40px;
+}
+
+#b3loca
+{
+	height: 1650px;
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	box-shadow: 1px 1px 12px #DEDEDE;
+	background-color: #edefef;
+}
+
+.b3locmen11
+{
+	width: 750px;
+	height: 1750px;
+	display: flex;
+	flex-direction: column;
+	background-color: #edefef;
+}
+
+.b3locmen111
+{
+	height: 370px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.b3locmen1111
+{
+	height: 150px;
+	font-family: 'DancingScript', Impact, 'Times New Roman';
+	font-size: 80px;
+	background-image: linear-gradient(to bottom right, #022ddf 0%, #0889fb 85%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 650px;
+}
+
+.blocmen1112
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #3d1319;
+}
+
+.blocmen1112
+{
+	height: 80px;
+}
+
+.n3ote1122
+{
+	font-family: 'NanumPen', Impact, 'Times New Roman';
+	font-size: 38px;
+	color: #0e0e0e;
+	width: 400px;
+	position: absolute;
+	left:40.7%;
+}
+
+.n3ote1142
+{
+	font-family: 'NanumPen', Impact, 'Times New Roman';
+	font-size: 38px;
+	color: #0e0e0e;
+	width: 400px;
+	position: absolute;
+	left:41.5%;
+}
+
+.n3ote1162
+{
+	font-family: 'NanumPen', Impact, 'Times New Roman';
+	font-size: 38px;
+	color: #0e0e0e;;
+	width: 400px;
+	position: absolute;
+	left:41.8%;
+}
+
+.n3ote1121, .n3ote1141, .n3ote1161
+{
+	position: relative;
+	right: 90px;
+}
+
+.n3ote1123, .n3ote1143, .n3ote1163
+{
+	position: relative;
+	left: 90px;
+}
+
+.branche31g, .branche31d, .branche32g, .branche32d, .branche33g, .branche33d
+{
+	width: 300px;
+}
+
+
+.b3locmen112, .b3locmen114, .b3locmen116
+{
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.note1131, .note1151, .note1171
+{
+	margin-top: 20px;
+}
+
+.note1131, .note1132, .note1133, .note1134, .note1151, .note1152, .note1153, .note1171, .note1172, .note1173
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 65px;
+	text-decoration: none;
+ 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+ 	transition: background-size .5s;
+}
+
+.note1131:hover, .note1132:hover, .note1133:hover, .note1134:hover, .note1151:hover, .note1152:hover, .note1153:hover, .note1171:hover, .note1172:hover, .note1173:hover
+{
+ 	background-size: 100% 100%;
+}
+
+.n3ote11311, .n3ote11321, .n3ote11331, .n3ote11341, .n3ote11511, .n3ote11521, .n3ote11531, .n3ote11711, .n3ote11721, .n3ote11731
+{
+	font-family: 'ShadowsIntoLight', Impact, 'Times New Roman';
+	font-size: 27px;
+}
+
+.n3ote11511, .n3ote11512, .n3ote11521, .n3ote11522, .n3ote11531, .n3ote11532
+{
+	color: #0e0e0e;
+}
+
+.n3ote11311, .n3ote11312, .n3ote11321, .n3ote11322, .n3ote11331, .n3ote11332
+{
+	color: #0e0e0e;
+}
+
+.n3ote11711, .n3ote11721, .n3ote11731
+{
+	color: #0e0e0e;
+}
+
+.n3ote11312, .n3ote11322, .n3ote11332, .n3ote11342, .n3ote11512, .n3ote11522, .n3ote11532, .n3ote11712, .n3ote11722, .n3ote11732
+{
+	font-family: 'Childish', 'Impact', 'Times New Roman';
+	font-size: 20px;
+}
+
+.b3locmen113
+{
+	height: 300px;
+}
+
+.b3locmen114
+{
+	height: 50px;
+}
+
+.b3locmen115
+{
+	height: 300px;
+}
+
+.b3locmen116
+{
+	height: 50px;
+}
+
+.b3locmen117
+{
+	height: 250px;
+}
+
+/*  Fin Page CSS Menu 3------------------------------------------------------------------------------------------------  */
+
+
+/*  Début Page CSS Menu 4------------------------------------------------------------------------------------------------  */
+
+#menu1main
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#menubloca
+{
+	height: 1930px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-content: center;
+}
+
+.blocmen10
+{
+	text-align: center;
+	font-size: 40px;
+}
+
+#b4loca
+{
+	height: 1650px;
+	width: 1000px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	box-shadow: 1px 1px 12px #DEDEDE;
+	background-color: #fdfffd;
+}
+
+.b4locmen11
+{
+	width: 750px;
+	height: 1750px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fdfffd;
+}
+
+.b4locmen111
+{
+	height: 370px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.b4locmen1111
+{
+	height: 150px;
+	width: 650px;
+	font-family: 'KaushanScript-Regular', Impact, 'Times New Roman';
+	font-size: 80px;
+	background-image: linear-gradient(to bottom right, #3d923a 0%, #beff7f 80%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.n4ote1
+{
+	width: 600px;
+}
+
+.blocmen1112
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #3d1319;
+}
+
+.blocmen1112
+{
+	height: 80px;
+}
+
+.n4ote1122
+{
+	font-family: 'KGMissKindergarten', Impact, 'Times New Roman';
+	font-size: 28px;
+	color: #0e0e0e;
+	width: 400px;
+	position: absolute;
+	left:45.6%;
+}
+
+.n4ote1142
+{
+	font-family: 'KGMissKindergarten', Impact, 'Times New Roman';
+	font-size: 28px;
+	color: #0e0e0e;
+	width: 400px;
+	position: absolute;
+	left:41.6%;
+}
+
+.n4ote1162
+{
+	font-family: 'KGMissKindergarten', Impact, 'Times New Roman';
+	font-size: 28px;
+	color: #0e0e0e;;
+	width: 400px;
+	position: absolute;
+	left:41%;
+}
+
+.n4ote1121, .n4ote1141, .n4ote1161
+{
+	position: relative;
+	right: 90px;
+}
+
+.n4ote1123, .n4ote1143, .n4ote1163
+{
+	position: relative;
+	left: 90px;
+}
+
+.branche41g, .branche41d
+{
+	width: 300px;
+}
+
+
+.b4locmen112, .b4locmen114, .b4locmen116
+{
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.note1131, .note1151, .note1171
+{
+	margin-top: 20px;
+}
+
+.note1131, .n4ote1132, .note1133, .note1134, .note1151, .note1152, .note1153, .note1171, .note1172, .note1173
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 65px;
+	text-decoration: none;
+ 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+ 	transition: background-size .5s;
+}
+
+.note1131:hover, .n4ote1132:hover, .note1133:hover, .note1134:hover, .note1151:hover, .note1152:hover, .note1153:hover, .note1171:hover, .note1172:hover, .note1173:hover
+{
+ 	background-size: 100% 100%;
+}
+
+.n4ote11311, .n4ote11321, .n4ote11331, .n4ote11341, .n4ote11511, .n4ote11521, .n4ote11531, .n4ote11711, .n4ote11721, .n4ote11731
+{
+	font-family: 'ShadowsIntoLight', Impact, 'Times New Roman';
+	font-size: 25px;
+}
+
+.n4ote11511, .n4ote11512, .n4ote11521, .n4ote11522, .n4ote11531, .n4ote11532
+{
+	color: #0e0e0e;
+}
+
+.n4ote11311, .n4ote11312, .n4ote11321, .n4ote11322, .n4ote11331, .n4ote11332
+{
+	color: #0e0e0e;
+}
+
+.n4ote11711, .n4ote11721, .n4ote11731
+{
+	color: #0e0e0e;
+}
+
+.n4ote11312, .n4ote11322, .n4ote11332, .n4ote11342, .n4ote11512, .n4ote11522, .n4ote11532, .n4ote11712, .n4ote11722, .n4ote11732
+{
+	font-family: 'Childish', 'Impact', 'Times New Roman';
+	font-size: 20px;
+}
+
+.b4locmen113
+{
+	height: 300px;
+}
+
+.b4locmen114
+{
+	height: 50px;
+}
+
+.b4locmen115
+{
+	height: 300px;
+}
+
+.b4locmen116
+{
+	height: 50px;
+}
+
+.b4locmen117
+{
+	height: 250px;
+}
+
+/*  Fin Page CSS Menu 4------------------------------------------------------------------------------------------------  */
+

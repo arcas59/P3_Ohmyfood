@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "RaspoutineClassic";
+  src: url("./fonts/RaspoutineClassicTB.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/RaspoutineClassicTB.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/RaspoutineClassicTB.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/RaspoutineClassicTB.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/RaspoutineClassicTB.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/RaspoutineClassicTB.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/RaspoutineClassicTB.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

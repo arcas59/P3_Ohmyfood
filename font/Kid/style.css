@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "KidKnowledges1";
+  src: url("./fonts/KidKnowledge1.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/KidKnowledge1.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/KidKnowledge1.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/KidKnowledge1.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/KidKnowledge1.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/KidKnowledge1.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/KidKnowledge1.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

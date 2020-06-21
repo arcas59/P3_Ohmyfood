@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "KaushanScript-Regular";
+  src: url("./fonts/KaushanScript-Regular.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/KaushanScript-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/KaushanScript-Regular.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/KaushanScript-Regular.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/KaushanScript-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/KaushanScript-Regular.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/KaushanScript-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "AppleGaramond";
+  src: url("./fonts/AppleGaramond.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/AppleGaramond.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/AppleGaramond.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/AppleGaramond.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/AppleGaramond.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/AppleGaramond.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/AppleGaramond.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

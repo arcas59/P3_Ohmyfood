@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "flashbackdemo-Regular";
+  src: url("./fonts/flashbackDemo.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/flashbackDemo.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/flashbackDemo.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/flashbackDemo.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/flashbackDemo.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/flashbackDemo.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/flashbackDemo.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "DancingScript";
+  src: url("./fonts/DancingScript-Regular.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/DancingScript-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/DancingScript-Regular.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/DancingScript-Regular.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/DancingScript-Regular.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/DancingScript-Regular.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/DancingScript-Regular.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}
