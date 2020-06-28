@@ -360,11 +360,33 @@ footer
 	margin-bottom: 60px;
 }
 
+.txtproche 
+{
+    font-size: 36px;
+    font-family: sans-serif;
+}
+
+.txtproche:after 
+{
+  display: inline-block;
+  animation: point steps(1,end) 1s infinite;
+  content: '';
+}
+
+@keyframes point 
+{
+  0%   { content: ''; }
+  25%  { content: '.'; }
+  50%  { content: '..'; }
+  75%  { content: '...'; }
+  100% { content: ''; }
+}
+
 #proche
 {
 	height: 50px;
 	line-height: 50px;	
-	width: 300px;
+	width: 350px;
 	background: #579c87;
 	border-radius: 10px;
 	text-decoration: none;
@@ -888,9 +910,6 @@ footer
 .b2locmen112, .b2locmen114, .b2locmen116
 {
 	height: 50px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
 }
 
 .blocmen1112
@@ -902,19 +921,14 @@ footer
 	color: #3d1319;
 }
 
-.blocmen1112
-{
-	height: 80px;
-}
-
 .n2ote1122
 {
 	font-family: 'DMSerifText-Regular', Impact, 'Times New Roman';
 	font-size: 28px;
+	height: 30px;
+	width: 310px;
 	color: #c67412;
-	width: 400px;
-	position: absolute;
-	left:41%;
+	text-align: center;
 }
 
 .n2ote1142
@@ -923,8 +937,8 @@ footer
 	font-size: 28px;
 	color: #c67412;
 	width: 400px;
-	position: absolute;
-	left:28%;
+	text-align: center;
+	background-color: crimson;
 }
 
 .n2ote1162
@@ -933,8 +947,8 @@ footer
 	font-size: 28px;
 	color: #c67412;
 	width: 400px;
-	position: absolute;
-	left:26.5%;
+	text-align: center;
+	background-color: darkgoldenrod;
 }
 
 .n2ote1142
@@ -942,8 +956,8 @@ footer
 	font-family: 'DMSerifText-Regular', Impact, 'Times New Roman';
 	font-size: 28px;
 	color: #a56799;
-	position: absolute;
-	margin-left: 230px;
+	text-align: center;
+	background-color: cyan;
 }
 
 .n2ote1162
@@ -951,8 +965,7 @@ footer
 	font-family: 'DMSerifText-Regular', Impact, 'Times New Roman';
 	font-size: 28px;
 	color: #6e4ccc;
-	position: absolute;
-	margin-left: 230px;
+	text-align: center;
 }
 
 .branche21
