@@ -16,6 +16,20 @@
 
 @font-face 
 {
+	font-family: "MADETOMMY-Medium";
+	src: url("font/MADETOMMY-Medium/fonts/MADETOMMYMediumPERSONALUSE.eot"); /* IE9 Compat Modes */
+	src: url("font/MADETOMMY-Medium/fonts/MADETOMMYMediumPERSONALUSE.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+	  url("font/MADETOMMY-Medium/fonts/MADETOMMYMediumPERSONALUSE.otf") format("opentype"), /* Open Type Font */
+	  url("font/MADETOMMY-Medium/fonts/MADETOMMYMediumPERSONALUSE.svg") format("svg"), /* Legacy iOS */
+	  url("font/MADETOMMY-Medium/fonts/MADETOMMYMediumPERSONALUSE.ttf") format("truetype"), /* Safari, Android, iOS */
+	  url("font/MADETOMMY-Medium/fonts/MADETOMMYMediumPERSONALUSE.woff") format("woff"), /* Modern Browsers */
+	  url("font/MADETOMMY-Medium/fonts/MADETOMMYMediumPERSONALUSE.woff2") format("woff2"); /* Modern Browsers */
+	font-weight: normal;
+	font-style: normal;
+  }
+
+@font-face 
+{
   font-family: "OpenSans";
   src: url("font/opensans/fonts/OpenSans-Regular.eot"); /* IE9 Compat Modes */
   src: url("font/opensans/fonts/OpenSans-Regular.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
@@ -273,6 +287,7 @@ footer
 {
 	display: flex;
 	flex-direction: column;
+	min-height: 100px;
 }
 
 #haut
@@ -302,23 +317,45 @@ footer
 
 #menubloc
 {
-	height: 730px;
+	height: 2230px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
-.menu12, .menu34
+.menu12
 {
-	margin-top: 40px;
+	margin-top: 450px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
+.menu1212
+{
+	width: 700px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.menu34
+{
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.menu3434
+{
+	width: 700px;
+	display: flex;
+	justify-content: space-between;
+}
+
 .menu1index, .menu2index, .menu3index, .menu4index
 {
-	max-width: 200px;
+	width: 320px;
+	max-width: 100%;
 	height: auto;
 	box-shadow: 1px 1px 12px #DEDEDE;
 	transition: transform 1s;
@@ -326,7 +363,6 @@ footer
 
 .menu1index:hover, .menu2index:hover, .menu3index:hover, .menu4index:hover
 {
-	transform: scale(1.13);
 	animation-name: fondu;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in-out;
@@ -335,6 +371,37 @@ footer
 	animation-direction: alternate;
 	animation-fill-mode:forwards;
 }
+
+.img-zoom .zoom 
+{
+    overflow: hidden;
+    position: relative; 
+}
+
+.img-zoom .zoom img 
+{
+    max-width: 100%;
+    -moz-transition: all 0.8s;
+    -webkit-transition: all 0.8s;
+    transition: all 0.8s;
+}
+
+.img-zoom .zoom * 
+{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.img-zoom:hover .zoom img 
+{
+    -moz-transform: scale(1.10);
+    -webkit-transform: scale(1.10);
+	transform: scale(1.10);
+}
+
 
 @keyframes fondu
 {
@@ -354,10 +421,11 @@ footer
 
 #prochainement
 {
+	margin-top: 50px;
 	height: 80px;
 	display: flex;
 	justify-content: center;
-	margin-bottom: 60px;
+	margin-bottom: 100px;
 }
 
 .txtproche 
@@ -366,7 +434,7 @@ footer
     font-family: sans-serif;
 }
 
-.txtproche:after 
+.txtproche:hover:after
 {
   display: inline-block;
   animation: point steps(1,end) 1s infinite;
@@ -396,7 +464,7 @@ footer
 {
 	font-size: 28px;
 	font-family: 'OpenSans', Impact, 'Times New Roman';
-	text-align: center;
+	padding-left: 20%;
 	color: #fdcb46;
 }
 
@@ -463,102 +531,78 @@ footer
 
 /*  Fin Page Accueil Ohmyfood------------------------------------------------------------------------------------------ */
 
-/*  Début Page Prochainement -----------------------------------------------------------------------------------------  */
+/*  Début Page Accuei Phone & Tablettel Ohmyfood----------------------------------------------------------------------- */
 
-
-#menublocproch
+@media all and (max-width: 950px)
 {
+
+	#menubloc
+	{
+	height: 2230px;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	height: 465px;
-	width: 100%;
+	}
+
+	.menu12
+	{
+	margin-top: 350px;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	#main1
+	{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 1830px;
+	}
+
+	#menubloc
+	{
+	height: 4230px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+
+	.menu1212
+	{
+		margin-top: 140px;
+		width: auto;
+		height: 970px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.menu3434
+	{
+		margin-top: 10px;
+		width: auto;
+		height: 970px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+
 }
 
-#cercle1 
-{
-    width: 40px;
-    height: 40px;
-    opacity: 1;
-    border-radius: 20px;
-    background: #579c87;
-    animation: animeperso ease-in-out 2s;
-    animation-direction: alternate;
-  	animation-iteration-count: infinite;
-  	transform-origin: 50% 50%;
-  	animation-fill-mode:forwards;
-}
+/*  Fin Page Accuei Phone & Tablettel Ohmyfood----------------------------------------------------------------------- */
 
-#cercle2
-{
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background: #ffffff;
-}
-
-#cercle3
-{
-    width: 40px;
-    height: 40px;
-    opacity: 1;
-    border-radius: 20px;
-    background: #579c87;
-    transform: translateY(1);
-    animation: animeperso ease-in-out 2s;
-    animation-direction: alternate;
-    animation-delay: 500ms;
-  	animation-iteration-count: infinite;
-  	transform-origin: 50% 50%;
-  	animation-fill-mode:forwards;
-}
-
-#cercle4
-{
-    width: 40px;
-    height: 40px;
-    border-radius: 20px;
-    background: #ffffff;
-}
-
-#cercle5
-{
-    width: 40px;
-    height: 40px;
-    opacity: 1;
-    border-radius: 20px;
-    background: #579c87;
-    animation: animeperso ease-in-out 2s;
-    animation-direction: alternate;
-    animation-delay: 1000ms;
-  	animation-iteration-count: infinite;
-  	transform-origin: 50% 50%;
-  	animation-fill-mode:forwards;
-}
-
-@keyframes animeperso{
-  0% {
-    opacity:1;
-    transform:  translate(0px,0px)  ;
-  }
-  50% {
-    opacity:0.5
-    ;
-  }
-  100% {
-    opacity:1;
-    transform:  translate(0px,-52px)  ;
-  }
-}
-
-/*  Fin Page Prochainement ---------------------------------------------------------------------------------------------  */
-
-
-/*  Début Page Mentions ------------------------------------------------------------------------------------------------  */
+/*  Début Page Mentions --------------------------------------------------------------------------------------------  */
 
 #menublocmen
 {
-	height: 410px;
+	min-height: 10px;
+	flex: 1;
+	margin-bottom: 80px;
 }
 
 .txtmentions
@@ -573,36 +617,6 @@ footer
 
 /*  Fin Page Mentions Légales -------------------------------------------------------------------------------------------  */
 
-
-/*  Début Page Contactez-nous -------------------------------------------------------------------------------------------  */
-
-#menubloccontact
-{
-	height: 300px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.txt, h2
-{
-	margin-left: 40px;
-	margin-right: 40px;
-	margin-top: 30px;
-	font-family: 'OpenSans', Impact, 'Times New Roman';
-	text-align: justify;
-	color: #579c87;
-}
-
-.mail
-{
-	color: #fdcb46;
-}
-
-/*  Fin Page Contactez-nous ---------------------------------------------------------------------------------------------  */
-
-
 /*  Début Page CSS Menu 1------------------------------------------------------------------------------------------------  */
 
 #menu1main
@@ -615,7 +629,7 @@ footer
 
 #menubloca
 {
-	height: 1930px;
+	min-height: 10px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -626,7 +640,8 @@ footer
 {
 	text-align: center;
 	font-size: 40px;
-	margin-top: -120px;
+	margin-top: 40px;
+	font-family: 'MADETOMMY-Medium', Impact, 'Times New Roman';
 }
 
 #bloca
@@ -709,6 +724,13 @@ footer
 {
 	font-family: 'KidKnowledges1', Impact, 'Times New Roman';
 	font-size: 38px;
+	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+	 transition: background-size .5s;
+}
+
+.note1122:hover, .note1142:hover, .note1162:hover
+{
+	background-size: 100% 100%;
 }
 
 .blocmen115
@@ -725,13 +747,6 @@ footer
 	align-items: center;
 	height: 65px;
 	text-decoration: none;
- 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
- 	transition: background-size .5s;
-}
-
-.note1131:hover, .note1132:hover, .note1133:hover, .note1134:hover, .note1151:hover, .note1152:hover, .note1153:hover, .note1171:hover, .note1172:hover, .note1173:hover
-{
- 	background-size: 100% 100%;
 }
 
 .note11311, .note11321, .note11331, .note11341, .note11511, .note11521, .note11531, .note11711, .note11721, .note11731
@@ -762,11 +777,6 @@ footer
 	height: 300px;
 }
 
-.blocmen116
-{
-	height: 50px;
-}
-
 .blocmen117
 {
 	height: 250px;
@@ -793,44 +803,332 @@ footer
 	margin-left: 15px;
 }
 
-.branche1g
+.red1
 {
 	padding-left: 3px;
 	width: 180px;
 }
 
-.branche1d
+.red11
 {
 	width: 180px;
-}
 }
 
 /*  Fin Page CSS Menu 1--------------------------------------------------------------------------------------------------  */
 
-/*  Début Page CSS Menu 2------------------------------------------------------------------------------------------------  */
+/*  Début Page Tablette CSS Menu 1---------------------------------------------------------------------------------------  */
 
-#menu1main
+@media all and (max-width: 1050px)
 {
+
+	body 
+	{
+		width: auto;
+	}
+
+	#bloca
+	{
+	min-height: 10px;
+	width: auto;
+	margin-top: 20px;
+	}
+
+	.blocmen10
+	{
+	text-align: center;
+	width: auto;
+	font-size: 40px;
+	margin-top: 40px;
+	margin-left: 0;
+	}
+
+	.blocmen11
+	{
+	min-width: 10px;
+	height: 1750px;
+	margin: 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-}
+	}
 
-#menubloca
-{
-	height: 1930px;
+	.blocmen112, .blocmen114, .blocmen116
+	{
+	height: 50px;
+	width: 500px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	}
+
+	.note1122, .note1142, .note1162
+	{
+	font-family: 'KidKnowledges1', Impact, 'Times New Roman';
+	font-size: 38px;
+	white-space:nowrap;
+	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+	 transition: background-size .5s;
+	}
+
+	.blocmen113
+	{
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	}
+
+	.blocmen115
+	{
+	height: 300px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-content: center;
+	align-items: center;
+	margin-bottom: 12px;
+	}
+
+	.blocmen117
+	{
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+
+	.blocmen115
+	{
+	height: 430px;
+	display: flex;
+	flex-direction: column;
+	}
+
+	.blocmen117
+	{
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+
+	.note1171, .note1172, .note1173
+	{
+	display: flex;
+	align-items: center;
+	height: 95px;
+	text-decoration: none;
+	}
+
+	.note1131, .note1132, .note1133, .note1134, .note1151, .note1152, .note1153
+	{
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	text-decoration: none;
+	width: 80%;
+	}
+
+	.note1171, .note1172, .note1173
+	{
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		text-decoration: none;
+		width: 70%;
+	}
+
+	.blocmen118
+	{
+	height: 146px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	}
+
+	.blocmen113
+	{
+	height: 370px;
+	}
+
+	.blocmen114
+	{
+	height: 50px;
+	margin-top: 10px;
+	}
+
+	.blocmen115
+	{
+	height: 300px;
+	}
+
+	.blocmen117
+	{
+	height: 250px;
+	}
+
+	.red1
+	{
+		width: 70%;
+		position: relative;
+		left: 10%;
+	}
+	
+	.red11
+	{
+		width: 70%;
+		position: relative;
+		left: 20%;
+	}
+
+	.note11321, .note11521
+	{
+		position: relative;
+		padding-top: 17px;
+	}
+
+	.note11322, .note11522
+	{
+		position: relative;
+		padding-bottom: 10px;
+	}
 }
 
-.blocmen10
+/*  Fin Page Tablette CSS Menu 1-----------------------------------------------------------------------------------------  */
+
+/*  Début Page Phone CSS Menu 1------------------------------------------------------------------------------------------  */
+
+@media all and (max-width: 770px)
 {
+
+	body 
+	{
+		height: 1900px;
+		width: auto;
+	}
+
+	#menubloca
+	{
+	min-height: 10px;
+	margin: 0;
+	padding: 0;
+	}
+
+	#bloca
+	{
+	min-height: 10px;
+	min-width: 10px;
+	margin-top: 20px;
+	}
+
+	.blocmen10
+	{
 	text-align: center;
+	min-width: 10px;
 	font-size: 40px;
-}
+	margin-top: 40px;
+	margin-left: 0;
+	}
+
+	.blocmen11
+	{
+	width: 500px;
+	height: 2050px;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+
+	.blocmen113
+	{
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	}
+
+	.blocmen115
+	{
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 12px;
+	}
+
+	.blocmen117
+	{
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+
+	.note1131, .note1132, .note1133, .note1134, .note1151, .note1152, .note1153, .note1171, .note1172, .note1173
+	{
+	flex: 1;
+	text-align: center;
+	text-decoration: none;
+	width: 90%;
+	}
+
+	.note11321, .note11521
+	{
+		position: relative;
+		padding-top: 17px;
+	}
+
+	.note11322, .note11522
+	{
+		position: relative;
+		padding-bottom: 10px;
+	}
+
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Fin Page Phone CSS Menu 1-----------------------------------------------------------------------------------------  */
+
+/*  Début Page CSS Menu 2------------------------------------------------------------------------------------------------  */
 
 #b2loca
 {
@@ -878,77 +1176,70 @@ footer
 	align-items: center;
 }
 
-.n2ote1
+.blocmen111
 {
-	width: 600px;
+	height: 355px;
+	font-family: 'Devonshire-Regular', Impact, 'Times New Roman';
 }
 
-.n2ote1121, .n2ote1141
+.n2ote1121
 {
 	position: relative;
-	right: 90px;
+	right: 130px;
+	width: 200px;
+}
+
+.n2ote1141
+{
+	position: relative;
+	right: 115px;
+	width: 200px;
 }
 
 .n2ote1161
 {
 	position: relative;
-	right: 70px;
+	right: 100px;
+	width: 200px;
 }
 
-.n2ote1123, .n2ote1143
+.n2ote1123
 {
 	position: relative;
-	left: 90px;
+	width: 200px;
+	left: -60px;
+}
+
+.n2ote1143
+{
+	position: relative;
+	width: 200px;
+	left: -45px;
 }
 
 .n2ote1163
 {
 	position: relative;
-	left: 90px;
+	width: 200px;
+	left: -22px;
 }
 
 .b2locmen112, .b2locmen114, .b2locmen116
 {
 	height: 50px;
-}
-
-.blocmen1112
-{
+	width: auto;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
+	justify-content: space-between;
 	align-items: center;
-	color: #3d1319;
 }
 
 .n2ote1122
 {
 	font-family: 'DMSerifText-Regular', Impact, 'Times New Roman';
 	font-size: 28px;
-	height: 30px;
-	width: 310px;
+	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+ 	transition: background-size .5s;
 	color: #c67412;
-	text-align: center;
-}
-
-.n2ote1142
-{
-	font-family: 'DMSerifText-Regular', Impact, 'Times New Roman';
-	font-size: 28px;
-	color: #c67412;
-	width: 400px;
-	text-align: center;
-	background-color: crimson;
-}
-
-.n2ote1162
-{
-	font-family: 'DMSerifText-Regular', Impact, 'Times New Roman';
-	font-size: 28px;
-	color: #c67412;
-	width: 400px;
-	text-align: center;
-	background-color: darkgoldenrod;
 }
 
 .n2ote1142
@@ -956,39 +1247,23 @@ footer
 	font-family: 'DMSerifText-Regular', Impact, 'Times New Roman';
 	font-size: 28px;
 	color: #a56799;
-	text-align: center;
-	background-color: cyan;
+	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+ 	transition: background-size .5s;
 }
 
 .n2ote1162
 {
 	font-family: 'DMSerifText-Regular', Impact, 'Times New Roman';
 	font-size: 28px;
+	background-color: black;
 	color: #6e4ccc;
-	text-align: center;
+	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+ 	transition: background-size .5s;
 }
 
-.branche21
+.n2ote1122:hover, .n2ote1142:hover, .n2ote1162:hover
 {
-	width: 300px;
-}
-
-.branche31
-{
-	width: 270px;
-}
-
-.branche211
-{
-	width: 210px;
-}
-
-.b2locmen112, .b2locmen114, .b2locmen116
-{
-	height: 50px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	background-size: 100% 100%;
 }
 
 .note1131, .note1151, .note1171
@@ -1003,13 +1278,6 @@ footer
 	align-items: center;
 	height: 65px;
 	text-decoration: none;
- 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
- 	transition: background-size .5s;
-}
-
-.note1131:hover, .note1132:hover, .note1133:hover, .note1134:hover, .note1151:hover, .note1152:hover, .note1153:hover, .note1171:hover, .note1172:hover, .note1173:hover
-{
- 	background-size: 100% 100%;
 }
 
 .n2ote11311, .n2ote11321, .n2ote11331, .n2ote11341, .n2ote11511, .n2ote11521, .n2ote11531, .n2ote11711, .n2ote11721, .n2ote11731
@@ -1044,19 +1312,9 @@ footer
 	height: 300px;
 }
 
-.b2locmen114
-{
-	height: 50px;
-}
-
 .b2locmen115
 {
 	height: 300px;
-}
-
-.b2locmen116
-{
-	height: 50px;
 }
 
 .b2locmen117
@@ -1069,29 +1327,6 @@ footer
 
 
 /*  Début Page CSS Menu 3------------------------------------------------------------------------------------------------  */
-
-#menu1main
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-#menubloca
-{
-	height: 1930px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-content: center;
-}
-
-.blocmen10
-{
-	text-align: center;
-	font-size: 40px;
-}
 
 #b3loca
 {
@@ -1127,6 +1362,7 @@ footer
 .b3locmen1111
 {
 	height: 150px;
+	width: 600px;
 	font-family: 'DancingScript', Impact, 'Times New Roman';
 	font-size: 80px;
 	background-image: linear-gradient(to bottom right, #022ddf 0%, #0889fb 85%);
@@ -1137,21 +1373,6 @@ footer
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 650px;
-}
-
-.blocmen1112
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: #3d1319;
-}
-
-.blocmen1112
-{
-	height: 80px;
 }
 
 .n3ote1122
@@ -1159,9 +1380,8 @@ footer
 	font-family: 'NanumPen', Impact, 'Times New Roman';
 	font-size: 38px;
 	color: #0e0e0e;
-	width: 400px;
-	position: absolute;
-	left:40.7%;
+	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+ 	transition: background-size .5s;
 }
 
 .n3ote1142
@@ -1169,9 +1389,8 @@ footer
 	font-family: 'NanumPen', Impact, 'Times New Roman';
 	font-size: 38px;
 	color: #0e0e0e;
-	width: 400px;
-	position: absolute;
-	left:41.5%;
+	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+ 	transition: background-size .5s;
 }
 
 .n3ote1162
@@ -1179,28 +1398,61 @@ footer
 	font-family: 'NanumPen', Impact, 'Times New Roman';
 	font-size: 38px;
 	color: #0e0e0e;;
-	width: 400px;
-	position: absolute;
-	left:41.8%;
+	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+ 	transition: background-size .5s;
 }
 
-.n3ote1121, .n3ote1141, .n3ote1161
+.n3ote1122:hover, .n3ote1142:hover, .n3ote1162:hover
+{
+	background-size: 100% 100%;
+}
+
+.n3ote1121
 {
 	position: relative;
-	right: 90px;
+	right: 65px;
+	width: 200px;
 }
 
-.n3ote1123, .n3ote1143, .n3ote1163
+.n3ote1141
 {
 	position: relative;
-	left: 90px;
+	right: 65px;
+	width: 200px;
 }
 
-.branche31g, .branche31d, .branche32g, .branche32d, .branche33g, .branche33d
+.n3ote1161
 {
-	width: 300px;
+	position: relative;
+	right: 65px;
+	width: 200px;
 }
 
+.n3ote1123
+{
+	position: relative;
+	left: 5px;
+	width: 200px;
+}
+
+.n3ote1143
+{
+	position: relative;
+	left: 5px;
+	width: 200px;
+}
+
+.n3ote1163
+{
+	position: relative;
+	left: 5px;
+	width: 200px;
+}
+
+.red3
+{
+	width: 135%;
+}
 
 .b3locmen112, .b3locmen114, .b3locmen116
 {
@@ -1222,13 +1474,6 @@ footer
 	align-items: center;
 	height: 65px;
 	text-decoration: none;
- 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
- 	transition: background-size .5s;
-}
-
-.note1131:hover, .note1132:hover, .note1133:hover, .note1134:hover, .note1151:hover, .note1152:hover, .note1153:hover, .note1171:hover, .note1172:hover, .note1173:hover
-{
- 	background-size: 100% 100%;
 }
 
 .n3ote11311, .n3ote11321, .n3ote11331, .n3ote11341, .n3ote11511, .n3ote11521, .n3ote11531, .n3ote11711, .n3ote11721, .n3ote11731
@@ -1263,19 +1508,9 @@ footer
 	height: 300px;
 }
 
-.b3locmen114
-{
-	height: 50px;
-}
-
 .b3locmen115
 {
 	height: 300px;
-}
-
-.b3locmen116
-{
-	height: 50px;
 }
 
 .b3locmen117
@@ -1287,29 +1522,6 @@ footer
 
 
 /*  Début Page CSS Menu 4------------------------------------------------------------------------------------------------  */
-
-#menu1main
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-#menubloca
-{
-	height: 1930px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-content: center;
-}
-
-.blocmen10
-{
-	text-align: center;
-	font-size: 40px;
-}
 
 #b4loca
 {
@@ -1358,33 +1570,13 @@ footer
 	align-items: center;
 }
 
-.n4ote1
-{
-	width: 600px;
-}
-
-.blocmen1112
-{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: #3d1319;
-}
-
-.blocmen1112
-{
-	height: 80px;
-}
-
 .n4ote1122
 {
 	font-family: 'KGMissKindergarten', Impact, 'Times New Roman';
 	font-size: 28px;
 	color: #0e0e0e;
-	width: 400px;
-	position: absolute;
-	left:45.6%;
+	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+ 	transition: background-size .5s;
 }
 
 .n4ote1142
@@ -1392,9 +1584,8 @@ footer
 	font-family: 'KGMissKindergarten', Impact, 'Times New Roman';
 	font-size: 28px;
 	color: #0e0e0e;
-	width: 400px;
-	position: absolute;
-	left:41.6%;
+	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+ 	transition: background-size .5s;
 }
 
 .n4ote1162
@@ -1402,32 +1593,66 @@ footer
 	font-family: 'KGMissKindergarten', Impact, 'Times New Roman';
 	font-size: 28px;
 	color: #0e0e0e;;
-	width: 400px;
-	position: absolute;
-	left:41%;
+	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+ 	transition: background-size .5s;
 }
 
-.n4ote1121, .n4ote1141, .n4ote1161
+.n4ote1122:hover, .n4ote1142:hover, .n4ote1162:hover
+{
+	background-size: 100% 100%;
+}
+
+.n4ote1121
 {
 	position: relative;
-	right: 90px;
+	right: 85px;
+	width: 200px;
 }
 
-.n4ote1123, .n4ote1143, .n4ote1163
+.n4ote1141
 {
 	position: relative;
-	left: 90px;
+	right: 85px;
+	width: 200px;
 }
 
-.branche41g, .branche41d
+.n4ote1161
 {
-	width: 300px;
+	position: relative;
+	right: 85px;
+	width: 200px;
 }
 
+.n4ote1123
+{
+	position: relative;
+	left: -10px;
+	width: 200px;
+}
+
+.n4ote1143
+{
+	position: relative;
+	left: -10px;
+	width: 200px;
+}
+
+.n4ote1163
+{
+	position: relative;
+	left: -10px;
+	width: 200px;
+}
+
+.red4
+{
+	width: 150%;
+}
 
 .b4locmen112, .b4locmen114, .b4locmen116
 {
 	height: 50px;
+	width: auto;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -1445,13 +1670,6 @@ footer
 	align-items: center;
 	height: 65px;
 	text-decoration: none;
- 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
- 	transition: background-size .5s;
-}
-
-.note1131:hover, .n4ote1132:hover, .note1133:hover, .note1134:hover, .note1151:hover, .note1152:hover, .note1153:hover, .note1171:hover, .note1172:hover, .note1173:hover
-{
- 	background-size: 100% 100%;
 }
 
 .n4ote11311, .n4ote11321, .n4ote11331, .n4ote11341, .n4ote11511, .n4ote11521, .n4ote11531, .n4ote11711, .n4ote11721, .n4ote11731
@@ -1486,19 +1704,9 @@ footer
 	height: 300px;
 }
 
-.b4locmen114
-{
-	height: 50px;
-}
-
 .b4locmen115
 {
 	height: 300px;
-}
-
-.b4locmen116
-{
-	height: 50px;
 }
 
 .b4locmen117
