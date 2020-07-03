@@ -258,8 +258,8 @@
 
 html, body 
 {
- margin:0;
- padding:0;
+	margin:0;
+	padding:0;
 }
 
 body a
@@ -436,18 +436,18 @@ footer
 
 .txtproche:hover:after
 {
-  display: inline-block;
-  animation: point steps(1,end) 1s infinite;
-  content: '';
+	display: inline-block;
+	animation: point steps(1,end) 1s infinite;
+	content: '';
 }
 
 @keyframes point 
 {
-  0%   { content: ''; }
-  25%  { content: '.'; }
-  50%  { content: '..'; }
-  75%  { content: '...'; }
-  100% { content: ''; }
+  	0%   { content: ''; }
+  	25%  { content: '.'; }
+  	50%  { content: '..'; }
+  	75%  { content: '...'; }
+  	100% { content: ''; }
 }
 
 #proche
@@ -488,13 +488,15 @@ footer
 }
 
 @keyframes wiggle{
-  25% {
-    transform:  translateX(2%);
-  }
+	25% 
+	{
+    	transform:  translateX(2%);
+  	}
 
-  75% {
-    transform:  translateX(2%);
-  }
+	  75% 
+	{
+    	transform:  translateX(2%);
+ 	}
 }
 
 .contactez
@@ -510,13 +512,15 @@ footer
 }
 
 @keyframes wiggle{
-  25% {
-    transform:  translateX(2%);
-  }
+  	25% 
+  	{
+    	transform:  translateX(2%);
+  	}
 
-  75% {
-    transform:  translateX(2%);
-  }
+  	75% 
+  	{
+    	transform:  translateX(2%);
+  	}
 }
 
 .menu2index
@@ -538,59 +542,58 @@ footer
 
 	#menubloc
 	{
-	height: 2230px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+		height: 2230px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.menu12
 	{
-	margin-top: 350px;
-	margin-left: auto;
-	margin-right: auto;
+		margin-top: 350px;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	#main1
 	{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	height: 1830px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height: 1830px;
 	}
 
 	#menubloc
 	{
-	height: 4230px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+		height: 4230px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.menu1212
 	{
-		margin-top: 140px;
-		width: auto;
-		height: 970px;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		align-items: center;
+			margin-top: 140px;
+			width: auto;
+			height: 970px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
 	}
 
 	.menu3434
 	{
-		margin-top: 10px;
-		width: auto;
-		height: 970px;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		align-items: center;
+			margin-top: 10px;
+			width: auto;
+			height: 970px;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			align-items: center;
 	}
-	
 
 }
 
@@ -725,7 +728,9 @@ footer
 	font-family: 'KidKnowledges1', Impact, 'Times New Roman';
 	font-size: 38px;
 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-	 transition: background-size .5s;
+	transition: background-size .5s;
+	width: 300px;
+	text-align: center;
 }
 
 .note1122:hover, .note1142:hover, .note1162:hover
@@ -805,13 +810,44 @@ footer
 
 .red1
 {
-	padding-left: 3px;
-	width: 180px;
+	width: 80%;
+	position: relative;
+	left: 0%;
 }
 
 .red11
 {
-	width: 180px;
+	width: 80%;
+	position: relative;
+	left: 23%;
+}
+
+.red12
+{
+	width: 80%;
+	position: relative;
+	left: 0%;
+}
+
+.red121
+{
+	width: 80%;
+	position: relative;
+	left: 22%;
+}
+
+.red13
+{
+	width: 80%;
+	position: relative;
+	left: 0%;
+}
+
+.red131
+{
+	width: 80%;
+	position: relative;
+	right: -22%;
 }
 
 /*  Fin Page CSS Menu 1--------------------------------------------------------------------------------------------------  */
@@ -821,118 +857,125 @@ footer
 @media all and (max-width: 1050px)
 {
 
-	body 
+	#menubloca
 	{
 		width: auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	#bloca
 	{
-	min-height: 10px;
-	width: auto;
-	margin-top: 20px;
+		min-height: 10px;
+		width: auto;
+		margin-top: 20px;
 	}
 
 	.blocmen10
 	{
-	text-align: center;
-	width: auto;
-	font-size: 40px;
-	margin-top: 40px;
-	margin-left: 0;
+		text-align: center;
+		width: auto;
+		min-height: 10px;
+		flex: 1;
+		font-size: 40px;
+		margin-top: 40px;
+		margin-left: 0;
 	}
 
 	.blocmen11
 	{
-	min-width: 10px;
-	height: 1750px;
-	margin: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+		width: auto;
+		min-height: 10px;
+		flex: 1;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.blocmen112, .blocmen114, .blocmen116
 	{
-	height: 50px;
-	width: 500px;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+		height: 50px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
 	}
 
 	.note1122, .note1142, .note1162
 	{
-	font-family: 'KidKnowledges1', Impact, 'Times New Roman';
-	font-size: 38px;
-	white-space:nowrap;
-	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
-	 transition: background-size .5s;
+		font-family: 'KidKnowledges1', Impact, 'Times New Roman';
+		font-size: 38px;
+		white-space:nowrap;
+		background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
+		transition: background-size .5s;
 	}
 
 	.blocmen113
 	{
-	height: 400px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
+		height: 400px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
 	}
 
 	.blocmen115
 	{
-	height: 300px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 12px;
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 12px;
 	}
 
 	.blocmen117
 	{
-	height: 250px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+		height: 250px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.blocmen115
 	{
-	height: 430px;
-	display: flex;
-	flex-direction: column;
+		height: 430px;
+		display: flex;
+		flex-direction: column;
 	}
 
 	.blocmen117
 	{
-	height: 250px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+		height: 250px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.note1171, .note1172, .note1173
 	{
-	display: flex;
-	align-items: center;
-	height: 95px;
-	text-decoration: none;
+		display: flex;
+		align-items: center;
+		height: 95px;
+		text-decoration: none;
 	}
 
 	.note1131, .note1132, .note1133, .note1134, .note1151, .note1152, .note1153
 	{
-	flex: 1;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	text-decoration: none;
-	width: 80%;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		text-decoration: none;
+		width: 80%;
 	}
 
 	.note1171, .note1172, .note1173
@@ -949,45 +992,74 @@ footer
 
 	.blocmen118
 	{
-	height: 146px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+		height: 146px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 80px;
 	}
 
 	.blocmen113
 	{
-	height: 370px;
+		height: 370px;
 	}
 
 	.blocmen114
 	{
-	height: 50px;
-	margin-top: 10px;
+		height: 50px;
+		margin-top: 10px;
 	}
 
 	.blocmen115
 	{
-	height: 300px;
+		height: 300px;
 	}
 
 	.blocmen117
 	{
-	height: 250px;
+		height: 250px;
 	}
 
 	.red1
 	{
-		width: 70%;
+		width: 80%;
 		position: relative;
-		left: 10%;
+		left: 9%;
 	}
 	
 	.red11
 	{
-		width: 70%;
+		width: 80%;
 		position: relative;
-		left: 20%;
+		left: 15%;
+	}
+
+	.red12
+	{
+		width: 80%;
+		position: relative;
+		left: 10%;
+	}
+	
+	.red121
+	{
+		width: 80%;
+		position: relative;
+		left: 15%;
+	}
+
+	.red13
+	{
+		width: 80%;
+		position: relative;
+		left: 11%;
+	}
+	
+	.red131
+	{
+		width: 80%;
+		position: relative;
+		right: -12%;
 	}
 
 	.note11321, .note11521
@@ -1010,80 +1082,96 @@ footer
 @media all and (max-width: 770px)
 {
 
-	body 
+	html, body
 	{
-		height: 1900px;
-		width: auto;
+		min-height: auto;
+		width: 100%;
 	}
 
 	#menubloca
 	{
-	min-height: 10px;
-	margin: 0;
-	padding: 0;
+		min-height: 10px;
+		width: 100%;
+		margin: auto;
 	}
 
 	#bloca
 	{
-	min-height: 10px;
-	min-width: 10px;
-	margin-top: 20px;
+		min-height: 10px;
+		min-width: 10px;
+		margin-top: 20px;
 	}
 
 	.blocmen10
 	{
-	text-align: center;
-	min-width: 10px;
-	font-size: 40px;
-	margin-top: 40px;
-	margin-left: 0;
+		text-align: center;
+		width: 100%;
+		min-width: 10px;
+		font-size: 40px;
+		margin-top: 40px;
+		margin-left: 0;
 	}
 
 	.blocmen11
 	{
-	width: 500px;
-	height: 2050px;
-	margin: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		height: 2050px;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 
 	.blocmen113
 	{
-	height: 400px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	align-items: center;
+		height: 400px;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
 	}
 
 	.blocmen115
 	{
-	height: 300px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 12px;
+		height: 300px;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 12px;
 	}
 
 	.blocmen117
 	{
-	height: 250px;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+		height: 250px;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.blocmen118
+	{
+		height: 146px;
+		flex: 1;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 80px;
 	}
 
 	.note1131, .note1132, .note1133, .note1134, .note1151, .note1152, .note1153, .note1171, .note1172, .note1173
 	{
-	flex: 1;
-	text-align: center;
-	text-decoration: none;
-	width: 90%;
+		flex: 1;
+		text-align: center;
+		text-decoration: none;
+		width: 80%;
 	}
 
 	.note11321, .note11521
@@ -1098,35 +1186,79 @@ footer
 		padding-bottom: 10px;
 	}
 
-}  
+	.notefin1
+	{
+		height: 50px;
+	}
+
+	.notefin2
+	{
+		font-family: 'Devonshire-Regular', Impact, 'Times New Roman';
+		color: #3d1319;
+		font-size: 50px;
+		margin-left: 15px;
+	}
 
 
+	.red1
+	{
+		width: 80%;
+		position: relative;
+		left: 5%;
+	}
+	
+	.red11
+	{
+		width: 80%;
+		position: relative;
+		left: 16%;
+	}
 
+	.red12
+	{
+		width: 80%;
+		position: relative;
+		left: 10%;
+	}
+	
+	.red121
+	{
+		width: 80%;
+		position: relative;
+		left: 15%;
+	}
 
+	.red13
+	{
+		width: 80%;
+		position: relative;
+		left: 11%;
+	}
+	
+	.red131
+	{
+		width: 80%;
+		position: relative;
+		right: -12%;
+	}
 
+	#bas
+	{
+		width: 100%;
+	}  
 
+	footer
+	{
+		height: 50px;
+		background-color: #579c87;
+		width: 100%;
+		position: fixed;
+		bottom: 0;
+	}
 
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*  Fin Page Phone CSS Menu 1-----------------------------------------------------------------------------------------  */
+/*  Fin Page Phone CSS Menu 1--------------------------------------------------------------------------------------------  */
 
 /*  Début Page CSS Menu 2------------------------------------------------------------------------------------------------  */
 
@@ -1168,7 +1300,6 @@ footer
 	font-size: 50px;
 	background-image: linear-gradient(to bottom right, #df871e 0%, #8f5bfe 75%);
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
 	display: flex;
 	flex-direction: column;
@@ -1176,58 +1307,10 @@ footer
 	align-items: center;
 }
 
-.blocmen111
-{
-	height: 355px;
-	font-family: 'Devonshire-Regular', Impact, 'Times New Roman';
-}
-
-.n2ote1121
-{
-	position: relative;
-	right: 130px;
-	width: 200px;
-}
-
-.n2ote1141
-{
-	position: relative;
-	right: 115px;
-	width: 200px;
-}
-
-.n2ote1161
-{
-	position: relative;
-	right: 100px;
-	width: 200px;
-}
-
-.n2ote1123
-{
-	position: relative;
-	width: 200px;
-	left: -60px;
-}
-
-.n2ote1143
-{
-	position: relative;
-	width: 200px;
-	left: -45px;
-}
-
-.n2ote1163
-{
-	position: relative;
-	width: 200px;
-	left: -22px;
-}
-
 .b2locmen112, .b2locmen114, .b2locmen116
 {
 	height: 50px;
-	width: auto;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -1240,6 +1323,7 @@ footer
 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
  	transition: background-size .5s;
 	color: #c67412;
+	white-space:nowrap;
 }
 
 .n2ote1142
@@ -1248,7 +1332,8 @@ footer
 	font-size: 28px;
 	color: #a56799;
 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
- 	transition: background-size .5s;
+	 transition: background-size .5s;
+	 white-space:nowrap;
 }
 
 .n2ote1162
@@ -1258,7 +1343,8 @@ footer
 	background-color: black;
 	color: #6e4ccc;
 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
- 	transition: background-size .5s;
+	 transition: background-size .5s;
+	 white-space:nowrap;
 }
 
 .n2ote1122:hover, .n2ote1142:hover, .n2ote1162:hover
@@ -1322,15 +1408,395 @@ footer
 	height: 250px;
 }
 
+.red2
+{
+	width: 160%;
+	position: relative;
+	left: -60%;
+}
+
+.red21
+{
+	width: 160%;
+	position: relative;
+	left: -15%;
+}
+
+.red22
+{
+	width: 130%;
+	position: relative;
+	left: -45%;
+}
+
+.red221
+{
+	width: 130%;
+	position: relative;
+	left: 9%;
+}
+
+.red222
+{
+	width: 130%;
+	position: relative;
+	left: -38%;
+}
+
+.red2221
+{
+	width: 130%;
+	position: relative;
+	left: 10%;
+}
 
 /*  Fin Page CSS Menu 2--------------------------------------------------------------------------------------------------  */
 
+/*  Début Page Tablette CSS Menu 2---------------------------------------------------------------------------------------  */
+
+@media all and (max-width: 1050px)
+{
+
+	#b2loca
+	{
+		height: 1650px;
+		width: auto;
+		margin-top: 20px;
+	}
+
+	.b2locmen11
+	{
+		height: 1650px;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.b2locmen111
+	{
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.b2locmen1111
+	{
+		height: 200px;
+		font-family: 'CroissantOne-Regular', Impact, 'Times New Roman';
+		font-size: 50px;
+		background-image: linear-gradient(to bottom right, #df871e 0%, #8f5bfe 75%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.b2locmen112, .b2locmen114, .b2locmen116
+	{
+		height: 50px;
+		width: auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}	
+
+	.b2locmen113
+	{
+		height: 320px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.b2locmen115
+	{
+		height: 340px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 12px;
+	}
+
+	.b2locmen117
+	{
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 200px;
+	}
+
+	.n2ote1131, .n2ote1132, .n2ote1133, .n2ote1151, .n2ote1152, .n2ote1153, .n2ote1171, .n2ote1172, .n2ote1173
+	{
+		flex: 1;
+		text-align: center;
+		text-decoration: none;
+		width: 90%;
+	}
+
+	.n2ote11321, .n2ote11331
+	{
+		position: relative;
+		padding-top: 17px;
+	}
+
+	.n2ote11322, .n2ote11332
+	{
+		position: relative;
+		padding-bottom: 10px;
+	}
+
+	.red2
+	{
+		width: 110%;
+		position: relative;
+		left: -10%;
+	}
+
+	.red21
+	{
+		width: 110%;
+		position: relative;
+		left: -10%;
+	}
+
+	.red22
+	{
+		width: 90%;
+		position: relative;
+		left: -3%;
+	}
+
+	.red221
+	{
+		width: 90%;
+		position: relative;
+		left: 9%;
+	}
+	
+	.red222
+	{
+		width: 92%;
+		position: relative;
+		left: 3%;
+	}
+
+	.red2221
+	{
+		width: 92%;
+		position: relative;
+		left: 6%;
+	}
+
+}
+
+/*  Fin Page Tablette CSS Menu 2-----------------------------------------------------------------------------------------  */
+
+/*  Début Page Phone CSS Menu 2------------------------------------------------------------------------------------------  */
+
+@media all and (max-width: 770px)
+{
+
+	#b2loca
+	{
+		min-width: 10px;
+		margin-top: 20px;
+		width: 100%;
+		height: 1750px;
+	}
+
+	.blocmen10
+	{
+		text-align: center;
+		min-width: 10px;
+		font-size: 30px;
+		margin-top: 40px;
+		margin-left: 0;
+	}
+
+	.b2locmen11
+	{
+		height: 1750px;
+		width: 100%;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.b2locmen111
+	{
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.b2locmen1111
+	{
+		height: 200px;
+		font-family: 'CroissantOne-Regular', Impact, 'Times New Roman';
+		font-size: 30px;
+		background-image: linear-gradient(to bottom right, #df871e 0%, #8f5bfe 75%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.b2locmen112, .b2locmen114, .b2locmen116
+	{
+		height: 50px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}	
+
+	.b2locmen113
+	{
+		height: 340px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.b2locmen115
+	{
+		height: 440px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 12px;
+	}
+
+	.b2locmen117
+	{
+		height: 300px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 200px;
+	}
+
+	.n2ote1131, .n2ote1132, .n2ote1133, .n2ote1151, .n2ote1152, .n2ote1153, .n2ote1171, .n2ote1172, .n2ote1173
+	{
+		flex: 1;
+		text-align: center;
+		text-decoration: none;
+		width: 90%;
+	}
+
+	.n2ote11321, .n2ote11331, .n2ote11521, .n2ote11531
+	{
+		position: relative;
+		padding-top: 17px;
+	}
+
+	.n2ote11322, .n2ote11332, .n2ote11522, .n2ote11532
+	{
+		position: relative;
+		padding-bottom: 10px;
+	}
+
+	.n2ote11731
+	{
+		margin-top: -8%;
+	}
+
+	.n2ote11512
+	{
+		padding-bottom: 20PX;
+	}
+
+	.n2ote1122
+	{
+		width: 300px;
+		white-space:nowrap;
+	}
+
+	.n2ote1142
+	{
+		width: 280px;
+		white-space:nowrap;
+		text-align: center;
+	}
+
+	.n2ote1162
+	{
+		width: 280px;
+		white-space:nowrap;
+	}
+
+	.red2
+	{
+		width: 90%;
+		position: relative;
+		left: 1%;
+		flex: 1;
+	}
+
+	.red21
+	{
+		width: 90%;
+		position: relative;
+		left: 5%;
+	}
+
+	.red22
+	{
+		width: 67%;
+		position: relative;
+		left: 1%;
+	}
+
+	.red221
+	{
+		width: 67%;
+		position: relative;
+		left: 30%;
+	}
+	
+	.red222
+	{
+		width: 73%;
+		position: relative;
+		left: 8%;
+	}
+
+	.red2221
+	{
+		width: 73%;
+		position: relative;
+		left: 21%;
+	}
+
+}
+
+/*  Fin Page Phone CSS Menu 2--------------------------------------------------------------------------------------------  */
 
 /*  Début Page CSS Menu 3------------------------------------------------------------------------------------------------  */
 
 #b3loca
 {
-	height: 1650px;
+	height: 1850px;
 	width: 1000px;
 	display: flex;
 	flex-direction: column;
@@ -1344,7 +1810,7 @@ footer
 .b3locmen11
 {
 	width: 750px;
-	height: 1750px;
+	height: 1850px;
 	display: flex;
 	flex-direction: column;
 	background-color: #edefef;
@@ -1367,7 +1833,6 @@ footer
 	font-size: 80px;
 	background-image: linear-gradient(to bottom right, #022ddf 0%, #0889fb 85%);
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
 	display: flex;
 	flex-direction: column;
@@ -1381,7 +1846,8 @@ footer
 	font-size: 38px;
 	color: #0e0e0e;
 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
- 	transition: background-size .5s;
+	 transition: background-size .5s;
+	 white-space:nowrap;
 }
 
 .n3ote1142
@@ -1390,7 +1856,8 @@ footer
 	font-size: 38px;
 	color: #0e0e0e;
 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
- 	transition: background-size .5s;
+	 transition: background-size .5s;
+	 white-space:nowrap;
 }
 
 .n3ote1162
@@ -1399,59 +1866,13 @@ footer
 	font-size: 38px;
 	color: #0e0e0e;;
 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
- 	transition: background-size .5s;
+	 transition: background-size .5s;
+	 white-space:nowrap;
 }
 
 .n3ote1122:hover, .n3ote1142:hover, .n3ote1162:hover
 {
 	background-size: 100% 100%;
-}
-
-.n3ote1121
-{
-	position: relative;
-	right: 65px;
-	width: 200px;
-}
-
-.n3ote1141
-{
-	position: relative;
-	right: 65px;
-	width: 200px;
-}
-
-.n3ote1161
-{
-	position: relative;
-	right: 65px;
-	width: 200px;
-}
-
-.n3ote1123
-{
-	position: relative;
-	left: 5px;
-	width: 200px;
-}
-
-.n3ote1143
-{
-	position: relative;
-	left: 5px;
-	width: 200px;
-}
-
-.n3ote1163
-{
-	position: relative;
-	left: 5px;
-	width: 200px;
-}
-
-.red3
-{
-	width: 135%;
 }
 
 .b3locmen112, .b3locmen114, .b3locmen116
@@ -1462,12 +1883,7 @@ footer
 	align-items: center;
 }
 
-.note1131, .note1151, .note1171
-{
-	margin-top: 20px;
-}
-
-.note1131, .note1132, .note1133, .note1134, .note1151, .note1152, .note1153, .note1171, .note1172, .note1173
+.n3ote1131, .n3ote1132, .n3ote1133, .n3ote1134, .n3ote1151, .n3ote1152, .n3ote1153, .n3ote1171, .n3ote1172, .n3ote1173
 {
 	display: flex;
 	justify-content: space-between;
@@ -1506,22 +1922,433 @@ footer
 .b3locmen113
 {
 	height: 300px;
+	margin-top: 30px;
 }
 
 .b3locmen115
 {
 	height: 300px;
+	margin-top: 30px;
 }
 
 .b3locmen117
 {
 	height: 250px;
+	margin-top: 30px;
+}
+
+.red3
+{
+	width: 120%;
+	position: relative;
+	left: -35%;
+}
+
+.red31
+{
+	width: 120%;
+	position: relative;
+	left: 14%;
+}
+
+.red32
+{
+	width: 117%;
+	position: relative;
+	left: -35%;
+}
+
+.red321
+{
+	width: 117%;
+	position: relative;
+	left: 16%;
+}
+
+.red33
+{
+	width: 117%;
+	position: relative;
+	left: -35%;
+}
+
+.red331
+{
+	width: 117%;
+	position: relative;
+	left: 16%;
 }
 
 /*  Fin Page CSS Menu 3------------------------------------------------------------------------------------------------  */
 
+/*  Début Page Tablette CSS Menu 3-------------------------------------------------------------------------------------  */
 
-/*  Début Page CSS Menu 4------------------------------------------------------------------------------------------------  */
+@media all and (max-width: 1050px)
+{
+
+	#b3loca
+	{
+		height: 1845px;
+		width: auto;
+		margin-top: 20px;
+	}
+
+	.b3locmen11
+	{
+		height: 1845px;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.b3locmen111
+	{
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.b3locmen1111
+	{
+		height: 150px;
+		width: 600px;
+		font-family: 'DancingScript', Impact, 'Times New Roman';
+		font-size: 80px;
+		background-image: linear-gradient(to bottom right, #022ddf 0%, #0889fb 85%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.b3locmen112, .b3locmen114, .b3locmen116
+	{
+		height: 50px;
+		width: auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.b3locmen113
+	{
+		height: 390px;
+		margin-top: 0px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.b3locmen115
+	{
+		height: 390px;
+		margin-top: 20px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 5px;
+	}
+
+	.b3locmen117
+	{
+		height: 300px;
+		margin-top: 20px;
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		margin-bottom: 200px;
+	}
+
+	.n3ote1131, .n3ote1132, .n3ote1133, .n3ote1151, .n3ote1152, .n3ote1153, .n3ote1171, .n3ote1172, .n3ote1173
+	{
+		text-decoration: none;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		width: 90%;
+	}
+
+	.n3ote11311, .n3ote11521, .n3ote11531
+	{
+		position: relative;
+		padding-top: 17px;
+	}
+
+	.n3ote11312, .n3ote11522, .n3ote11532
+	{
+		position: relative;
+		padding-bottom: 10px;
+	}
+
+	.red3
+	{
+		width: 80%;
+		position: relative;
+		left: 10%;
+	}
+
+	.red31
+	{
+		width: 80%;
+		position: relative;
+		left: 10%;
+	}
+
+	
+	.red32
+	{
+		width: 76%;
+		position: relative;
+		left: 10%;
+	}
+
+	.red321
+	{
+		width: 76%;
+		position: relative;
+		left: 14%;
+	}
+
+	.red33
+	{
+		width: 75%;
+		position: relative;
+		left: 10%;
+	}
+
+	.red331
+	{
+		width: 75%;
+		position: relative;
+		left: 15%;
+	}
+
+}
+
+/*  Fin Page Tablette CSS Menu 3---------------------------------------------------------------------------------------  */
+
+/*  Début Page Phone CSS Menu 3----------------------------------------------------------------------------------------  */
+
+@media all and (max-width: 770px)
+{
+
+	#menubloca
+	{
+		min-height: 10px;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	#b3loca
+	{
+		min-width: 10px;
+		margin-top: 20px;
+		width: 100%;
+		height: 1930px;
+	}
+
+	.blocmen10
+	{
+		text-align: center;
+		min-width: 10px;
+		font-size: 40px;
+		margin-top: 40px;
+		margin-left: 0;
+	}
+
+	.b3locmen11
+	{
+		height: 1930px;
+		width: 100%;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.b3locmen111
+	{
+		flex: 1;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.b3locmen1111
+	{
+		height: 150px;
+		width: 100%;
+		font-family: 'DancingScript', Impact, 'Times New Roman';
+		font-size: 50px;
+		background-image: linear-gradient(to bottom right, #022ddf 0%, #0889fb 85%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.b3locmen112, .b3locmen114, .b3locmen116
+	{
+		height: 50px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		text-align: center;
+	}	
+
+	.b3locmen113
+	{
+		height: 390px;
+		margin-top: 25px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 30px;
+	}
+
+	.b3locmen115
+	{
+		margin-top: 25px;
+		padding-top: 20px;
+		height: 390px;
+		display: flex;
+		width: 90%;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 30px;
+	}
+
+	.b3locmen117
+	{
+		height: 300px;
+		padding-top: 20px;
+		margin-top: 25px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 200px;
+	}
+
+	.n3ote1131, .n3ote1132, .n3ote1133, .n3ote1151, .n3ote1152, .n3ote1153, .n3ote1171, .n3ote1172, .n3ote1173
+	{
+		flex: 1;
+		text-align: center;
+		text-decoration: none;
+		width: 90%;
+	}
+
+	.n3ote11311, .n3ote11521, .n3ote11531, .n3ote11731, .n3ote11721
+	{
+		position: relative;
+		padding-top: 17px;
+	}
+
+	.n3ote11312, .n3ote11522, .n3ote11722, .n3ote11532, .n3ote11732
+	{
+		position: relative;
+		padding-bottom: 10px;
+	}
+
+	.n3ote11331
+	{
+		padding-top: 23px;
+	}
+
+	.n3ote11332
+	{	
+		padding-bottom: 25px;
+	}
+
+	.n3ote1122
+	{
+		width: 300px;
+		white-space:nowrap;
+		text-align: center;
+	}
+
+	.n3ote1142
+	{
+		width: 280px;
+		white-space:nowrap;
+		text-align: center;
+	}
+
+	.n3ote1162
+	{
+		width: 280px;
+		white-space:nowrap;
+	}
+
+	.red3
+	{
+		width: 75%;
+		position: relative;
+		left: -3%;
+	}
+
+	.red31
+	{
+		width: 75%;
+		position: relative;
+		left: 0%;
+	}
+
+	.red32
+	{
+		width: 75%;
+		position: relative;
+		left: -3%;
+	}
+
+	.red321
+	{
+		width: 75%;
+		position: relative;
+		left: 1%;
+	}
+
+	.red33
+	{
+		width: 75%;
+		position: relative;
+		left: -3%;
+	}
+
+	.red331
+	{
+		width: 75%;
+		position: relative;
+		left: 1%;
+	}
+
+}
+
+/*  Début Fin Phone CSS Menu 3-----------------------------------------------------------------------------------------  */
+
+
+/*  Début Page CSS Menu 4-----------------------------------------------------------------------------------------------  */
 
 #b4loca
 {
@@ -1562,7 +2389,6 @@ footer
 	font-size: 80px;
 	background-image: linear-gradient(to bottom right, #3d923a 0%, #beff7f 80%);
     -webkit-background-clip: text;
-    background-clip: text;
     -webkit-text-fill-color: transparent;
 	display: flex;
 	flex-direction: column;
@@ -1576,7 +2402,8 @@ footer
 	font-size: 28px;
 	color: #0e0e0e;
 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
- 	transition: background-size .5s;
+	 transition: background-size .5s;
+	 white-space:nowrap;
 }
 
 .n4ote1142
@@ -1585,7 +2412,8 @@ footer
 	font-size: 28px;
 	color: #0e0e0e;
 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
- 	transition: background-size .5s;
+	 transition: background-size .5s;
+	 white-space:nowrap;
 }
 
 .n4ote1162
@@ -1594,59 +2422,13 @@ footer
 	font-size: 28px;
 	color: #0e0e0e;;
 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
- 	transition: background-size .5s;
+	 transition: background-size .5s;
+	 white-space:nowrap;
 }
 
 .n4ote1122:hover, .n4ote1142:hover, .n4ote1162:hover
 {
 	background-size: 100% 100%;
-}
-
-.n4ote1121
-{
-	position: relative;
-	right: 85px;
-	width: 200px;
-}
-
-.n4ote1141
-{
-	position: relative;
-	right: 85px;
-	width: 200px;
-}
-
-.n4ote1161
-{
-	position: relative;
-	right: 85px;
-	width: 200px;
-}
-
-.n4ote1123
-{
-	position: relative;
-	left: -10px;
-	width: 200px;
-}
-
-.n4ote1143
-{
-	position: relative;
-	left: -10px;
-	width: 200px;
-}
-
-.n4ote1163
-{
-	position: relative;
-	left: -10px;
-	width: 200px;
-}
-
-.red4
-{
-	width: 150%;
 }
 
 .b4locmen112, .b4locmen114, .b4locmen116
@@ -1658,16 +2440,15 @@ footer
 	align-items: center;
 }
 
-.note1131, .note1151, .note1171
+.n4ote1131, .n4ote1132, .n4ote1133, .n4ote1151, .n4ote1152, .n4ote1153, .n4ote1171, .n4ote1172, .n4ote1173
 {
-	margin-top: 20px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .note1131, .n4ote1132, .note1133, .note1134, .note1151, .note1152, .note1153, .note1171, .note1172, .note1173
 {
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
 	height: 65px;
 	text-decoration: none;
 }
@@ -1699,20 +2480,467 @@ footer
 	font-size: 20px;
 }
 
+.n4ote1132
+{
+	position: relative;
+	top: 4%;
+}
+
 .b4locmen113
 {
-	height: 300px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-bottom: 13%;
+	margin-top: 5%;
 }
 
 .b4locmen115
 {
-	height: 300px;
+	height: 210px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 5%;
+	margin-bottom: 10%;
 }
 
 .b4locmen117
 {
 	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.red4
+{
+	width: 105%;
+	position: relative;
+	left: -38%;
+}
+
+.red41
+{
+	width: 105%;
+	position: relative;
+	left: 32%;
+}
+
+.red42
+{
+	width: 132%;
+	position: relative;
+	left: -47%;
+}
+
+.red421
+{
+	width: 132%;
+	position: relative;
+	left: 15%;
+}
+
+.red43
+{
+	width: 140%;
+	position: relative;
+	left: -50%;
+}
+
+.red431
+{
+	width: 140%;
+	position: relative;
+	left: 10%;
 }
 
 /*  Fin Page CSS Menu 4------------------------------------------------------------------------------------------------  */
 
+/*  Début Page Tablette CSS Menu 4-------------------------------------------------------------------------------------  */
+
+@media all and (max-width: 1050px)
+{
+
+	#b4loca
+	{
+		height: 1810px;
+		width: auto;
+		margin-top: 20px;
+	}
+
+	.b4locmen11
+	{
+		height: 1810px;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.b4locmen111
+	{
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.b4locmen1111
+	{
+		height: 150px;
+		font-family: 'KaushanScript-Regular', Impact, 'Times New Roman';
+		font-size: 70px;
+		background-image: linear-gradient(to bottom right, #3d923a 0%, #beff7f 80%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.b4locmen112, .b4locmen114, .b4locmen116
+	{
+		height: 50px;
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}	
+
+	.b4locmen114
+	{
+		margin-top: -10%;
+	}
+
+	.b4locmen116
+	{
+		margin-top: -10px;
+	}
+
+	.b4locmen113
+	{
+		height: 330px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 2%;
+	}
+
+	.n4ote1131
+	{
+		position: relative;
+		top: 4%;
+	}
+
+	.b4locmen115
+	{
+		height: 330px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: 4%;
+		margin-bottom: 3%;
+	}
+
+	.b4locmen117
+	{
+		height: 350px;
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		margin-bottom: 200px;
+	}
+
+	.n4ote1131, .n4ote1132, .n4ote1133, .n4ote1151, .n4ote1152, .n4ote1153, .n4ote1171, .n4ote1172, .n4ote1173
+	{
+		flex: 1;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		text-decoration: none;
+		width: 100%;
+	}
+
+	.n4ote11311, .n4ote11321, .n4ote11531
+	{
+		position: relative;
+		padding-top: 17px;
+	}
+
+	.n4ote11312, .n4ote11322, .n4ote11532
+	{
+		position: relative;
+		padding-bottom: 10px;
+	}
+
+	.n4ote11531, .n4ote11711
+	{
+		position: relative;
+		padding-top: 17px;
+	}
+
+	.n4ote11532, .n4ote11712
+	{
+		position: relative;
+		padding-bottom: 20px;
+	}
+
+	.red4
+	{
+		width: 71%;
+		position: relative;
+		left: 2%;
+	}
+
+	.red41
+	{
+		width: 71%;
+		position: relative;
+		left: 27%;
+	}
+
+	.red42
+	{
+		width: 90%;
+		position: relative;
+		left: 2%;
+	}
+
+	.red421
+	{
+		width: 90%;
+		position: relative;
+		left: 8%;
+	}
+
+	.red43
+	{
+		width: 95%;
+		position: relative;
+		left: 2%;
+	}
+
+	.red431
+	{
+		width: 95%;
+		position: relative;
+		left: 3%;
+	}
+
+}
+
+
+/*  Fin Page Tablette CSS Menu 4---------------------------------------------------------------------------------------  */
+
+/*  Début Page Phone CSS Menu 4----------------------------------------------------------------------------------------  */
+
+@media all and (max-width: 770px)
+{
+
+	#menubloca
+	{
+		min-height: 10px;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+	}
+
+	.blocmen10
+	{
+		text-align: center;
+		min-width: 10px;
+		font-size: 40px;
+		margin-top: 40px;
+		margin-left: 0;
+	}
+
+	#b4loca
+	{
+		min-width: 10px;
+		height: 2050px;
+		width: 100%;
+		margin-top: 20px;
+		width: 100%;
+	}
+
+	.b4locmen11
+	{
+		height: 2050px;
+		width: 100%;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.b4locmen111
+	{
+		flex: 1;
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.b4locmen1111
+	{
+		height: 70px;
+		width: 100%;
+		font-family: 'KaushanScript-Regular', Impact, 'Times New Roman';
+		font-size: 50px;
+		background-image: linear-gradient(to bottom right, #3d923a 0%, #beff7f 80%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.b4locmen112, .b4locmen114, .b4locmen116
+	{
+		height: 50px;
+		width: 100%;
+		width: auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		text-align: center;
+	}	
+
+
+	.b4locmen113
+	{
+		height: 420px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		margin-top: -1%;
+	}
+
+	.b4locmen115
+	{
+		height: 420px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 1%;
+		margin-top: 4%;
+	}
+
+	.b4locmen117
+	{
+		height: 490px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 200px;
+		margin-top: -40px;
+	}
+
+	.n4ote1131, .n4ote1132, .n4ote1133, .n4ote1151, .n4ote1152, .n4ote1153, .n4ote1171, .n4ote1172, .n4ote1173
+	{
+		flex: 1;
+		text-align: center;
+		text-decoration: none;
+		width: 90%;
+	}
+
+	.n4ote11711
+	{
+		position: relative;
+		padding-top: 60px;
+	}
+
+	.n4ote11712
+	{
+		position: relative;
+		padding-bottom: 40px;
+	}
+
+	.n4ote1121, .n4ote1123
+	{
+		width: 100%;
+	}
+
+	.n4ote1122
+	{
+		width: 280px;
+		white-space:nowrap;
+	}
+
+	.n4ote1142
+	{
+		width: 280px;
+		white-space:nowrap;
+		text-align: center;
+	}
+
+	.n4ote1162
+	{
+		width: 280px;
+		white-space:nowrap;
+	}
+
+	.red4
+	{
+		width: 48%;
+		position: relative;
+		left: -18%;
+	}
+
+	.red41
+	{
+		width: 48%;
+		position: relative;
+		left: 23%;
+	}
+
+	.red42
+	{
+		width: 70%;
+		position: relative;
+		left: -4%;
+	}
+
+	.red421
+	{
+		width: 70%;
+		position: relative;
+		left: 10%;
+	}
+
+	.red43
+	{
+		width: 80%;
+		position: relative;
+		left: 2%;
+	}
+
+	.red431
+	{
+		width: 80%;
+		position: relative;
+		left: 2%;
+	}
+
+}
+
+/*  Début Fin Phone CSS Menu 4-----------------------------------------------------------------------------------------  */
