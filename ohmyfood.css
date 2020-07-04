@@ -729,7 +729,8 @@ footer
 	font-size: 38px;
 	background: linear-gradient(to top, rgba(87, 156, 135, 0.5) 0%, rgba(87, 156, 135, 0.5) 10%, transparent 10.01%) no-repeat left bottom / 0 100%;
 	transition: background-size .5s;
-	width: 300px;
+	width: auto;
+	white-space:nowrap;
 	text-align: center;
 }
 
