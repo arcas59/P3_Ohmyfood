@@ -357,30 +357,19 @@ footer
 	width: 320px;
 	max-width: 100%;
 	height: auto;
-	box-shadow: 1px 1px 12px #DEDEDE;
-	transition: transform 1s;
-}
-
-.menu1index:hover, .menu2index:hover, .menu3index:hover, .menu4index:hover
-{
-	animation-name: fondu;
-	animation-iteration-count: 1;
-	animation-timing-function: ease-in-out;
-	animation-duration: 1s;
-	transform-origin: 50% 50%;
-	animation-direction: alternate;
-	animation-fill-mode:forwards;
+	box-shadow: 1px 1px 12px #DEDEDE;	
 }
 
 .img-zoom .zoom 
 {
     overflow: hidden;
-    position: relative; 
+	position: relative;
 }
 
 .img-zoom .zoom img 
 {
-    max-width: 100%;
+	max-width: 100%;
+	opacity: 1;
     -moz-transition: all 0.8s;
     -webkit-transition: all 0.8s;
     transition: all 0.8s;
@@ -390,7 +379,7 @@ footer
 {
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+	box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -400,6 +389,7 @@ footer
     -moz-transform: scale(1.10);
     -webkit-transform: scale(1.10);
 	transform: scale(1.10);
+	opacity: 0.5;
 }
 
 
@@ -409,13 +399,9 @@ footer
 	{
 		opacity: 1;
 	}
-	50%
-	{
-		opacity: 0.5;
-	}
 	100%
 	{
-		opacity: 1;
+		opacity: 0.5;
 	}
 }
 
@@ -2850,7 +2836,7 @@ footer
 	.b4locmen117
 	{
 		height: 490px;
-		white: 100%;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
